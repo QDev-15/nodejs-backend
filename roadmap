@@ -1,0 +1,124 @@
+🌱 Giai đoạn 1: Nền tảng cơ bản
+🎯 Mục tiêu: Hiểu rõ cách hoạt động của Node.js, môi trường JavaScript backend.
+✅ Kiến thức cần học:
+Hiểu về Node.js: Event Loop, Non-blocking I/O
+
+JavaScript nâng cao (ES6+):
+
+Promise, async/await
+
+Closure, hoisting
+
+Destructuring, spread/rest
+
+Module System (require, import, export)
+
+Làm việc với file hệ thống (fs), path, http module gốc
+
+🛠 Thực hành:
+Tạo một server đơn giản với module http
+
+Viết một ứng dụng đọc/ghi file JSON
+
+🧱 Giai đoạn 2: Xây dựng API với Express
+🎯 Mục tiêu: Biết cách xây dựng REST API hoàn chỉnh
+✅ Kiến thức:
+Express.js cơ bản và nâng cao
+
+RESTful APIs: GET, POST, PUT, DELETE
+
+Middleware (custom, third-party)
+
+Validation với Joi hoặc express-validator
+
+Exception Handling
+
+Cấu trúc thư mục theo chuẩn MVC
+
+🛠 Thực hành:
+Xây dựng API quản lý Todo/Blog/Shop đơn giản
+
+Triển khai thử lên Render hoặc Railway
+
+🗃️ Giai đoạn 3: Làm việc với cơ sở dữ liệu
+🎯 Mục tiêu: Hiểu ORM, truy vấn dữ liệu, quan hệ
+✅ Kiến thức:
+MongoDB + Mongoose (NoSQL)
+
+PostgreSQL/MySQL + Sequelize/Prisma (SQL)
+
+Quan hệ 1-1, 1-n, n-n
+
+Indexing, Query optimization
+
+🛠 Thực hành:
+API blog có Users, Posts, Comments, Tags
+
+CRUD đầy đủ, lọc, phân trang, sắp xếp
+
+🔐 Giai đoạn 4: Xác thực và phân quyền
+🎯 Mục tiêu: Xây dựng hệ thống đăng ký, đăng nhập bảo mật
+✅ Kiến thức:
+Mã hóa mật khẩu với bcrypt
+
+JWT Authentication: access + refresh token
+
+Middleware kiểm tra token
+
+Role-based access control (RBAC)
+
+🛠 Thực hành:
+API login/register, refresh token
+
+Quản lý người dùng theo vai trò (Admin/User)
+
+🚀 Giai đoạn 5: Kiến trúc chuyên nghiệp
+🎯 Mục tiêu: Code clean, dễ mở rộng
+✅ Kiến thức:
+SOLID principles
+
+Dependency Injection (NestJS nếu nâng cấp)
+
+Repository Pattern, Service Layer
+
+Cấu trúc thư mục nâng cao
+
+🛠 Thực hành:
+Viết lại project Todo/Blog theo service + repository
+
+🧪 Giai đoạn 6: Kiểm thử (Testing)
+🎯 Mục tiêu: Viết code có kiểm thử để dễ maintain
+✅ Kiến thức:
+Unit Test với Jest, Mocha
+
+Mocking, coverage
+
+Integration test
+
+🛠 Thực hành:
+Viết test cho service, controller, middleware
+
+🧰 Giai đoạn 7: Công cụ DevOps & nâng cao
+🎯 Mục tiêu: Triển khai thực tế, mở rộng hệ thống
+✅ Kiến thức:
+Docker: tạo image, container
+
+CI/CD (GitHub Actions)
+
+Load balancing, caching với Redis
+
+Sử dụng message broker: RabbitMQ, Kafka
+
+🛠 Thực hành:
+Triển khai hệ thống có caching, queue, log tập trung
+
+🏆 Giai đoạn 8: Làm dự án lớn
+🎯 Mục tiêu: Áp dụng toàn bộ kiến thức
+🛠 Dự án gợi ý:
+Clone Shopee/Lazada Backend
+
+Hệ thống đặt vé máy bay
+
+CMS quản lý nội dung + phân quyền
+
+Blog đa ngôn ngữ có API cho web/app
