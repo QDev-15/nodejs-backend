@@ -1,0 +1,13 @@
+bin/
+obj/
+*.user
+*.suo
+.vscode/
+.env
+*.db
+*.log
+*.swp
+.idea/
+*.DS_Store
+wwwroot/uploads/
+appsettings.*.json  # Nếu bạn không muốn public file này
